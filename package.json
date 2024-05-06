@@ -4,8 +4,7 @@
   "description": "staff relations management app",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "jest --coverage"
+    "start": "node app.js"
   },
   "dependencies": {
     "auth0": "^4.3.1",
@@ -14,13 +13,5 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "express-openid-connect": "^2.17.1"
-  },
-  "devDependencies": {
-    "coveralls-next": "^4.2.1",
-    "jest": "^27.5.1",
-    "puppeteer": "^22.7.1"
-  },
-  "jest": {
-    "testEnvironment": "jsdom"
   }
 }
